@@ -1,15 +1,8 @@
-import tensorflow as tf
-
-# Enable eager execution
-tf.config.run_functions_eagerly(True)
-
 from CnnClassifier.config.configuration import ConfigurationManager
 from CnnClassifier.components.evaluation import Evaluation
 from CnnClassifier import logger
 
-
 STAGE_NAME = "Evaluation stage"
-
 
 class EvaluationPipeline:
     def __init__(self):
@@ -21,7 +14,6 @@ class EvaluationPipeline:
         evaluation = Evaluation(eval_config)
         evaluation.evaluation()
         evaluation.save_score()
-
 
 if __name__ == '__main__':
     try:

@@ -14,9 +14,9 @@ class Training:
         self.model = tf.keras.models.load_model(
             self.config.updated_base_model_path
     )
-        # CRITICAL FIX: Recompile the model with a fresh optimizer
+        # CRITICAL FIX: Recompile with Adam optimizer
         self.model.compile(
-            optimizer=tf.keras.optimizers.SGD(learning_rate=0.01),
+            optimizer=tf.keras.optimizers.Adam(learning_rate=0.0001),
             loss=tf.keras.losses.CategoricalCrossentropy(),
             metrics=["accuracy"]
     )

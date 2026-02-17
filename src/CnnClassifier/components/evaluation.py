@@ -36,7 +36,7 @@ class Evaluation:
         
         # CRITICAL: Recompile with fresh optimizer
         model.compile(
-            optimizer=tf.keras.optimizers.SGD(learning_rate=0.01),
+            optimizer=tf.keras.optimizers.Adam(learning_rate=0.0001),
             loss=tf.keras.losses.CategoricalCrossentropy(),
             metrics=["accuracy"]
         )
