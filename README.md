@@ -34,6 +34,8 @@
 
 This project implements an automated chicken disease classification system using deep learning to identify **Coccidiosis** - a deadly disease affecting poultry farms worldwide. The system uses transfer learning with VGG16 architecture and achieves **90%+ accuracy** in disease detection.
 
+[![workflow](https://github.com/Priyrajsinh/End-To-End-Deep-Learning-Project-Using-MLOPS-DVC-Pipeline/actions/workflows/main.yaml/badge.svg)](https://github.com/Priyrajsinh/End-To-End-Deep-Learning-Project-Using-MLOPS-DVC-Pipeline/actions/workflows/main.yaml)
+
 ### Problem Statement
 Coccidiosis causes significant economic losses in poultry farming. Early detection is crucial but requires expert veterinarians. This AI-powered solution enables farmers to:
 - ✅ Detect disease early through fecal image analysis
