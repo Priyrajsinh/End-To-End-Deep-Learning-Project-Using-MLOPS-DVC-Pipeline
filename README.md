@@ -683,9 +683,9 @@ copies or substantial portions of the Software.
 **Priyrajsinh**
 
 - GitHub: [@Priyrajsinh](https://github.com/Priyrajsinh)
-- LinkedIn: [Your LinkedIn Profile]
-- Email: [Your Email]
-- Portfolio: [Your Portfolio Website]
+- LinkedIn: [https://www.linkedin.com/in/priyrajsinh-parmar-b0a1a7243/]
+- Email: [priyrajsinh03@gmail.com]
+- Portfolio: [Soon]
 
 ---
 
@@ -704,9 +704,8 @@ copies or substantial portions of the Software.
 
 For questions, suggestions, or collaboration opportunities:
 
-- 📧 Email: your.email@example.com
+- 📧 Email: priyrajsinh03@gmail.com
 - 💬 GitHub Issues: [Create an issue](https://github.com/Priyrajsinh/End-To-End-Deep-Learning-Project-Using-MLOPS-DVC-Pipeline/issues)
-- 🐦 Twitter: [@YourTwitterHandle]
 
 ---
 
